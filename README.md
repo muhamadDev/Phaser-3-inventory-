@@ -11,48 +11,48 @@
 3 - load the plugins in preload methood
  
 ```
-        this.load.scenePlugin({
-            key: 'rexuiplugin',
-            url: 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js',
+this.load.scenePlugin({
+    key: 'rexuiplugin',
+    url: 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js',
             sceneKey: 'rexUI'
-        });
+});
         
-        this.load.scenePlugin('PhaserTooltip', PhaserTooltip, 'PhaserTooltip', 'tooltip');
+this.load.scenePlugin('PhaserTooltip', PhaserTooltip, 'PhaserTooltip', 'tooltip');
 ```
 
 4- create inventory in create methood
 ```
-        this.inv = new Inventory({
-            x: 100, // x-position: number
-            y: 100, // y-position: number
-            orientationY: false, // bolean
-            key: "inventoryContainer", // background key: string
-            space: 5, // how much space have: number
-            width: 150, // container width: number
-            height: 150, // comtainer height: number
-            padding: 10 // padding bewteen each container: number
-        }, this);
+this.inv = new Inventory({
+    x: 100, // x-position: number
+    y: 100, // y-position: number
+    orientationY: false, // bolean
+    key: "inventoryContainer", // background key: string
+    space: 5, // how much space have: number
+    width: 150, // container width: number
+    height: 150, // comtainer height: number
+    padding: 10 // padding bewteen each container: number
+}, this);
 ```
 
 5- add item to inventory 
 
 ```
-    this.inv.addItem("key", {
-        qountity: 5, // number
-        text: "tool" // tooltips text : string
-    });
+this.inv.addItem("key", {
+    qountity: 5, // number
+    text: "tool" // tooltips text : string
+});
 ```
 note: "key" is item's key
 
 6- remove item from inventory 
 ```
-    this.inv.removeItem("key", 1)
+this.inv.removeItem("key", 1)
 ```
 note: 1 is qountity
 
 6- update inventory in update methood
 ```
-    this.inv.update();
+this.inv.update();
 ```
 
 
