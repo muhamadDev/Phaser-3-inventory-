@@ -30,7 +30,10 @@ this.inv = new Inventory({
     space: 5, // how much space have: number
     width: 150, // container width: number
     height: 150, // comtainer height: number
-    padding: 10 // padding bewteen each container: number
+    padding: 10, // padding bewteen each container: number
+    onClickCallback: (item, pointer) => {
+        console.log(item)
+    }
 }, this);
 ```
 
@@ -96,7 +99,10 @@ export default class Main extends Phaser.Scene {
             space: 5,
             width: 150,
             height: 150,
-            padding: 10
+            padding: 10,
+            onClickCallback: (item, pointer) => {
+                console.log(item)
+            }
         }, this);
         
         this.inv.addItem("waterting", {
