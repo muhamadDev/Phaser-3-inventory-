@@ -89,8 +89,8 @@ export default class Main extends Phaser.Scene {
     create() {
         
         this.inv = new Inventory({
-            x: 640,
-            y: 950,
+            x: 200,
+            y: 200,
             orientationY: false,
             key: "inventoryContainer",
             space: 5,
