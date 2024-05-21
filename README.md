@@ -42,6 +42,7 @@
         text: "tool" // tooltips text : string
     });
 ```
+note: "key" is item's key
 
 6- remove item from inventory 
 ```
