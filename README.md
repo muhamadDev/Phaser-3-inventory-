@@ -71,7 +71,6 @@ export default class Main extends Phaser.Scene {
         super({ key: "scene" });
     }
     
-    // main methods
     preload() {
         this.load.image('inventoryContainer', '../assets/Inv.png');
         
