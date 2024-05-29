@@ -1,6 +1,6 @@
 # a phaser 3 inventory system
 
-![sample](https://github.com/muhamadDev/Phaser-3-inventory-/blob/main/Sample.gif)
+![sample](https://github.com/muhamadDev/Phaser-3-inventory-/blob/main/sample.gif)
 
 # Usage
 
