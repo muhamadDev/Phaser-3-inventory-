@@ -6,7 +6,7 @@
 
 1- download this two files `inventory.js`, `PhaserTooltip.js` in src directry
 
-2- `import Inventory from "./inventory.js"` and  `import PhaserTooltip from "./PhaserTooltip.js";` in the scene file
+2- `import Inventory from "./pathTo/inventory.js"` and  `import PhaserTooltip from "./pathTo/PhaserTooltip.js";` in the scene file
 
 3 - load the plugins in preload methood
  
