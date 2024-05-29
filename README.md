@@ -27,6 +27,8 @@ this.inv = new Inventory({
     y: 100, // y-position: number
     orientationY: false, // bolean
     key: "inventoryContainer", // background key: string
+    scrollFactor: 1, // mumber 
+    tooltitOffset: { x: 0, y: 0}, // 
     space: 5, // how much space have: number
     width: 150, // container width: number
     height: 150, // comtainer height: number
