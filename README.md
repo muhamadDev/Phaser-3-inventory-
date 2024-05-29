@@ -97,6 +97,8 @@ export default class Main extends Phaser.Scene {
             y: 200,
             orientationY: false,
             key: "inventoryContainer",
+            scrollFactor: 1,
+            tooltitOffset: { x: 0, y: 0} 
             space: 5,
             width: 150,
             height: 150,
