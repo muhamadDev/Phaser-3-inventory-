@@ -38,8 +38,13 @@ this.inv = new Inventory({
     }
 }, this);
 ```
+5- update inventory in update methood
+```
+this.inv.update();
+```
 
-5- add item to inventory 
+
+6- for adding item to inventory 
 
 ```
 this.inv.addItem("key", {
@@ -49,17 +54,11 @@ this.inv.addItem("key", {
 ```
 note: "key" is item's key
 
-6- remove item from inventory 
+7- for removing item from inventory 
 ```
 this.inv.removeItem("key", 1)
 ```
 note: 1 is qountity
-
-6- update inventory in update methood
-```
-this.inv.update();
-```
-
 
 # the code should be look like this
 ```
