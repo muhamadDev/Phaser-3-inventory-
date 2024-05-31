@@ -60,6 +60,11 @@ this.inv.removeItem("key", 1)
 ```
 note: 1 is qountity
 
+8- for destroying the inventory
+```
+this.inv.containerGroup.clear(true,true);
+```
+
 # the code should be look like this
 ```
 import Inventory from "./inventory.js";
