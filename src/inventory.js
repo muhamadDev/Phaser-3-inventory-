@@ -408,7 +408,7 @@ export default class Inventory {
                 }) 
                 
             });
-            this.onDbClick();
+            this.onDbClick(item, pointer);
             added = true;
             
             
