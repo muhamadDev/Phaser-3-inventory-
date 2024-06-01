@@ -41,6 +41,9 @@ this.inv = new Inventory({
     onClickCallback: (item, pointer) => {
         // onClickCallback a function
     },
+    onDbClick: (item, pointer) => {
+    } 
+        
     inventorys: [] // array of other inventorys
 }, this); 
 ```
@@ -57,7 +60,8 @@ this.inv = new Inventory({
 - `height` container height
 - `padding` padding between each container
 - `scrollFactor` the scrollFactor of the containers
-- `onClickCallback` when you click one item what should happen? 
+- `onClickCallback` when you click one item what should happen?
+- `onDbClick` when you double click one item what should happen?
 - `inventorys` an array of other inventories
 
 5- update inventory in update methood
