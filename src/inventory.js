@@ -265,6 +265,7 @@ export default class Inventory {
                 
                 if (currentTime - this.lastClickTime < 300) {
                     this.handleDoubleClick(item, pointer);
+                    return
                 }
                 
                 this.lastClickTime = currentTime;
