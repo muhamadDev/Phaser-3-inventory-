@@ -113,7 +113,16 @@ this.inv.addInventorys(this.inv2);
 12- if you double click an item inside a inventory
     the item will go to another inventory that is open
 
-
+13- you can add custom data to a item in this case action is the custom action
+```
+const a = this.inv.addItem("Bow", {
+    qountity: 1,
+    text: "Bow",
+    action: "nothing"
+});
+    // to get back the data
+    console.log(a.children[1].getData("info").action)
+```
 # the code should be look like this
 ```
 import Inventory from "./inventory.js";
